@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #590696;
+  color : white;
+}
+
+.Navbar{
+  display: flex;
+  margin-top: 2rem;
+}
+
+.Navbarlink{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Navbarlink a{
+  margin-right: 2rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  transition: 0.5s;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.Navbarlink a:hover{
+  background-color: rgb(200,200,200,0.3);
+}
+
+.Main{
+  margin-top: 10rem;
+}
+
+.MainH{
+  display: flex;
+  padding: 0 15rem;
+}
+
+.MainH2{
+  margin-left: auto;
+}
+
+.profileimg{
+  width: 15rem;
+  border-radius: 3rem;
+  box-shadow:  0 0 50px rgb(255,255,255,0.5);
+  transition: 0.5s;
+}
+
+.profileimg:hover{
+  box-shadow:  0 0 150px rgb(255,255,255,0.5);
+
+}
+.MainH1 h1{
+  font-size: 3rem;
+}
+
+.text{
+  transition: 0.5s;
+  font-size: 4rem;
+  display: inline;
+}
+
+.th:hover{
+  color: blue;
+}
+
+.ta:hover{
+  color: blue;
+  
+}
+.tr:hover{
+  color: blue;
+}
+.tr1:hover{
+  color: blue;
+}
+.ti:hover{
+  color: blue;
+}
+.ts:hover{
+  color: blue;
+}
+.th1:hover{
+  color: blue;
+}
+
+.MainE1{
+  margin-top: 16rem;
+  background-color: rgb(200,200,200,0.3);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3rem;
+  padding: 4rem;
+  width: 40%;
+  box-shadow:  0 0 100px rgb(255,255,255,0.6);
+
+}
+
+.otex{
+  color: orange;
+}
+
+.space{
+  color : transparent;
+}
+
+.About{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.MainP{
+  margin-top: 5rem;
+
+}
+
+.MainP1{
+  background-color: rgb(200,200,200,0.3);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3rem;
+  padding: 4rem;
+  box-shadow:  0 0 100px rgb(255,255,255,0.5);
+
+}
+
+.Cmain{
+  width: 16rem;
+  height: fit-content;
+  display: inline-block;
+  margin: 3rem;
+  
+}
+
+.Cmain img{
+  width: 14rem;
+  border-radius: 3rem;
+  
+}
+
+.Cmain1{
+  width: 14rem;
+  background-color: #590696;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+
+.Clinks a{
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  background-color: rgb(200,200,200,0.3);
+  padding: 5px 10px;
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+
+.Clinks{
+  display: flex;
+}
+
+.Clinks a:hover{
+  box-shadow:  0 0 50px rgb(255,255,255,0.5);
+}
+
+.clink{
+  box-shadow:  0 0 25px rgb(255,255,255,0.8);
+  background-color: rgb(200,200,200,0.3);
+}
+
+.Contact{
+  background-color: rgb(200,200,200,0.3);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3rem;
+  padding: 4rem;
+  box-shadow:  0 0 100px rgb(255,255,255,0.5);
+  margin-top: 10rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+  .MainH{
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+  .MainP1{
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+  .MainP{
+    padding: 0;
+    text-align: center;
+  }
+  .Cmain{
+    width: 5rem;
+    font-size: small;
+    display: block;
+  }
+  .About h1{
+    font-size: 1.5rem;
+  }
+  .About p{
+    font-size: 0.8rem;
+  }
+}
